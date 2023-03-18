@@ -12,5 +12,5 @@ docker run -v ./share:/root/.local/share -it ghcr.io/rajyraman/power-platform-cl
 
 ```
 podman machine start
-podman run -v ./share:/root/.local/share -it ghcr.io/rajyraman/power-platform-cli-container:main
+podman run -v ./share:/root/.local/share -it ghcr.io/rajyraman/power-platform-cli-container:latest
 ```
