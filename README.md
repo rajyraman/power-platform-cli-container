@@ -4,8 +4,13 @@
 
 ## Run
 
-Below is an example of the command you need to run, if you want to spin up a new container using the pcf image.
+Below is an example of the command you need to run, if you want to spin up a new container and run Power Platform CLI.
 
 ```
 docker run -v ./share:/root/.local/share -it ghcr.io/rajyraman/power-platform-cli-container:latest
+```
+
+```
+podman machine start
+podman run -v ./share:/root/.local/share -it ghcr.io/rajyraman/power-platform-cli-container:main
 ```
